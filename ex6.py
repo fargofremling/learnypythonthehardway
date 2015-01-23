@@ -1,4 +1,4 @@
-# Chapter 5 Exercise
+# Chapter 6 Exercise
 
 x = "There are %d types of people." % 10
 binary = "binary"
@@ -22,7 +22,7 @@ e = "a string with a right side."
 print w + e
 
 
-# Chapter 5 Study Drills
+# Chapter 6 Study Drills
 
 # 1. Go through this program and write a comment above each line explaining it.
 # 2. Find all the places where a string is put inside a string. There are four places.
@@ -66,5 +66,5 @@ print w + e
 # Yes, I'm certain there are four places when a string is inside of a string. However,two of those place happen to be within the same string (see line 37).
 
 # 4. Explain why adding the two strings w and e with + makes a longer string.
-# In this case, it isn't really adding two strings. Instead, it is adding two variables, which both happen to be strings. With the print command, it's as if the + sign literally acts as a silent 'and'. 
+# In this case, it isn't really adding two strings. Instead, it is adding two variables, which both happen to be strings. With the print command, it's as if the + sign literally acts as a silent 'and'.
 
