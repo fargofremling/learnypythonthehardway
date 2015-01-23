@@ -62,9 +62,9 @@ e = "a string with a right side."
 # Prints both strings.
 print w + e
 
+
 # 3. Are you sure there are only four places? How do you know? Maybe I like lying.
 # Yes, I'm certain there are four places when a string is inside of a string. However,two of those place happen to be within the same string (see line 37).
 
 # 4. Explain why adding the two strings w and e with + makes a longer string.
 # In this case, it isn't really adding two strings. Instead, it is adding two variables, which both happen to be strings. With the print command, it's as if the + sign literally acts as a silent 'and'.
-
