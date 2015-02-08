@@ -42,3 +42,36 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 # 1. Go back through the script and type a comment above each line explaining in English what it does.
 # See above.
+
+# 2. Start at the bottom and read each line backward, saying all the important characters.
+# Done.
+
+# 3. Write at least one more function of your own design, and run it 5 different ways.
+def pets(dogs, cats):
+    print "You have adopted %d dogs." % dogs
+    print "And you have adopted %d cats." % cats
+    print "That means you have", dogs + cats, "pets in total!"
+    print "You are a true pet hero!\n"
+
+# Option 1
+pets(2,2)
+
+# Option 2
+dogs = 2
+cats = 1
+pets(dogs,cats)
+
+# Option 3
+pets(3 + 3, 4 + 4)
+
+# Option 4
+pets(dogs + 1, cats + 1)
+
+# Option 5
+print "How many dogs do you have?"
+dogs = int(raw_input())
+print "How many cats do you have?"
+cats = int(raw_input())
+pets(dogs, cats)
+
+
