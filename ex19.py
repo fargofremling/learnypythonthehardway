@@ -1,6 +1,6 @@
 # Chapter 19 Exercise
 
-# Using the word def creates the function and is followed by the function's name. It also establishes to variables for the function.
+# Using the word def creates the function and is followed by the function's name. It also establishes two variables for the function.
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
     # This prints the first line of the output of the function, which is a string that has a digit formatiting character for one of the variables defined in the function.
     print "You have %d cheeses!" % cheese_count
