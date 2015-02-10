@@ -7,19 +7,20 @@ from sys import argv
 script, input_file = argv
 
 
-# Using the word def creates the function and is followed by the function's name. It also establishes one variable for the function, which in this case is a file "f".
+# Using the word def creates the function and is followed by the function's name, in this case print_all. It also establishes one variable for the function, which in this case is a file "f".
 def print_all(f):
     
     # This command prints what is read from the variable file "f".
     print f.read()
 
-# Using the word def creates the function and is followed by the function's name. It also establishes one variable for the function, which in this case is a file "f".
+# Using the word def creates the function and is followed by the function's name, in this case rewind. It also establishes one variable for the function, which in this case is a file "f".
 def rewind(f):
     # This command prints what was sought on line 0 from the variable file "f".
     f.seek(0)
 
-# Using the word def creates the function and is followed by the function's name. It also establishes two variables for the function, one of which is a file "f".
+# Using the word def creates the function and is followed by the function's name. It also establishes two variables for the function, in this case line_coutn and "f", which is a file.
 def print_a_line(line_count, f):
+    
     
     print line_count, f.readline()
 
@@ -35,10 +36,13 @@ rewind(current_file)
 
 print "Let's print three lines:"
 
+# This assigns the variable current_line to 1.
 current_line = 1
 print_a_line(current_line, current_file)
+# This reassigns the variable current_line to 1 + 1, which is 2.
 current_line = current_line + 1
 print_a_line(current_line, current_file)
+# This reassigns the variable current_line to 2 + 1, which is 3.
 current_line = current_line + 1
 print_a_line(current_line, current_file)
 
