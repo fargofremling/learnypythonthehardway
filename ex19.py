@@ -46,7 +46,7 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 # 2. Start at the bottom and read each line backward, saying all the important characters.
 # Done.
 
-# 3. Write at least one more function of your own design, and run it 5 different ways.
+# 3. Write at least one more function of your own design, and run it 10 different ways.
 def pets(dogs, cats):
     print "You have adopted %d dogs." % dogs
     print "And you have adopted %d cats." % cats
@@ -68,10 +68,27 @@ pets(3 + 3, 4 + 4)
 pets(dogs + 1, cats + 1)
 
 # Option 5
+pets(-2 + 3, 4 + -3)
+
+# Option 6
+pets(2 * 2, 2 * 3)
+
+# Option 7
+pets(60 / 5, 48 / 12)
+
+# Option 8
+pets(2 * dogs, 3 * cats)
+
+# Option 9
+pets(12 / dogs, 4 / cats)
+
+# Option 10
 print "How many dogs do you have?"
 dogs = int(raw_input())
 print "How many cats do you have?"
 cats = int(raw_input())
 pets(dogs, cats)
+
+
 
 
