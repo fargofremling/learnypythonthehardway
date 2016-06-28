@@ -3,7 +3,7 @@ print "You enter a dark room with two doors. Do you go through door #1 or door #
 door = raw_input("> ")
 
 if door == "1":
-    print "There's a giant bear here eating a cheese case. What eating a cheese cake.  What do you do?"
+    print "There's a giant bear here eating a cheese cake. What do you do?"
     print "1. Take the cake."
     print "2. Scream at the bear."
     
@@ -35,7 +35,8 @@ else:
 # Study Drill
 # Write a completely new game. Maybe you don't like this one, so make your own. 
 # This is your computer, do what you want.
-legal_choice = False
+legal_choice = False3
+3
 
 def briefcase_options():
     if cash_choice == "1":
