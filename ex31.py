@@ -95,7 +95,7 @@ elif suitcase == "3":
         print "You just increased your winning by 100 times. You won $5,000!"
         
     else: 
-        print "Game over, Chump. You didn't choose between 1 oe 2."
+        print "Game over, Chump. You didn't choose between 1 or 2."
         
 else:
     print "Game over. You didn't choose among the three suitcases."
