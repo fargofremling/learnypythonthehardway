@@ -25,7 +25,7 @@ elif door == "2":
     insanity = raw_input("> ")
     
     if insanity == "1" or insanity == "2":
-        print "Your body survives powered by a mind of jello.Good job!"
+        print "Your body survives powered by a mind of jello. Good job!"
     else: 
         print "The insanitiy rots your eyes into a pool of muck. Good job!"
 
@@ -35,8 +35,7 @@ else:
 # Study Drill
 # Write a completely new game. Maybe you don't like this one, so make your own. 
 # This is your computer, do what you want.
-legal_choice = False3
-3
+legal_choice = False
 
 def briefcase_options():
     if cash_choice == "1":
